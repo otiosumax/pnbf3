@@ -10,6 +10,6 @@
     "noEmit": true,
 
     "outDir": "dist",
-    "rootDir": "src"
+    // "rootDir": "/src"
   }
 }

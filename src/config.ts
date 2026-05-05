@@ -176,5 +176,5 @@ export function resolveConfigFromThreeSources({
 }
 
 export function defaultConfigPath(): string {
-  return path.resolve(process.cwd(), "config", "appsettings.json");
+  return path.resolve(process.cwd(), "config", "../config.json");
 }

@@ -3,7 +3,7 @@
     "mode": "учебный",
     "port": 3000,
     "trustedOrigins": ["http://localhost:5173", "https://example.edu"],
-    "reateLimits": {
+    "rateLimits": {
       "readPerMinute": 300,
       "writePerMinute": 50
     }

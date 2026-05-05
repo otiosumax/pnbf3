@@ -1,4 +1,4 @@
-import { Item } from "./types/item.ts";
+import type { Item } from "./types/item.ts";
 
 export default function createItemsRepo() {
   const map = new Map<string, Item>();
@@ -25,5 +25,3 @@ function randomId(): string {
     Math.random().toString(16).slice(2) + Math.random().toString(16).slice(2)
   );
 }
-
-console.log(randomId());
