@@ -19,7 +19,7 @@
   },
   "scripts": {
     "dev": "node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/configPriority.test.ts && node test/securityAndLimit.test.ts"
   },
   "devDependencies": {
     "@types/node": "^25.6.0"
